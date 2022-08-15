@@ -1,0 +1,78 @@
+
+html{
+  min-height: 100%;
+}
+
+
+body{
+background: linear-gradient(to right top, #7cf954, #5cff9e, #66ffd4, #97fff5, #d1fcff, #d8f7ff, #ebf0ff, #ffe9ff, #ffd5ec, #ffc3be, #ffbf81, #f6c945);
+text-align: center;
+font-family: "Helvetica ", sans-serif;
+}
+
+
+.container
+{
+  height: 100vh ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center;
+
+}
+
+
+
+.stripe
+{
+  height: 120px;
+  width: 555px ;
+
+}
+
+
+#saffron-stripe
+{
+  background: #FF9933 ;
+}
+
+#white-stripe
+{
+  background: #FFFFFF ;
+  display :flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+#green-stripe
+{
+  background: #138808 ;
+}
+
+.chakra
+{
+  height: 90px ;
+  width: 90px ;
+}
+.flag{
+  filter: drop-shadow(4px 4px 5px #7B7A72);
+}
+
+@media screen and (max-width: 1080px)
+{
+
+  .stripe
+  {
+    height: 50px ;
+    width: 280px;
+  }
+  .chakra
+  {
+    height: 40px ;
+    width: 40px ;
+  }
+}
+
+footer{
+margin-bottom: 20px;
+opacity: 50% ;
+}
